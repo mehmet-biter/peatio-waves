@@ -1,0 +1,44 @@
+- name:             Waves Deposit Wallet
+  blockchain_key:   waves-testnet
+  currency_id:      waves
+  # Address where deposits will be collected to.
+  address:          'Qc2BM7gp8mKgJPPxLAadLAHteNQwhFwwuf'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             deposit    # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1          # Number of signatures required for performing withdraw.
+  max_balance:      0.0
+  status:           active
+  gateway:          wavesd  # Gateway client name.
+  settings:
+    #
+    # Wavesd gateway client settings.
+    uri:          http://user:password@127.0.0.1:19332
+
+- name:             Waves Hot Wallet
+  blockchain_key:   waves-testnet
+  currency_id:      waves
+  # Address where deposits will be collected to.
+  address:          'Qc2BM7gp8mKgJPPxLAadLAHteNQwhFwwuf'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             hot     # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1       # Number of signatures required for performing withdraw.
+  max_balance:      5.0
+  status:           active
+  gateway:          wavesd   # Gateway client name.
+  settings:
+    #
+    # Wavesd gateway client settings.
+    uri:          http://user:password@127.0.0.1:19332
+
+- name:             Waves Warm Wallet
+  blockchain_key:   waves-testnet
+  currency_id:      waves
+  # Address where deposits will be collected to.
+  address:          'Qc2BM7gp8mKgJPPxLAadLAHteNQwhFwwuf'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             warm    # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1       # Number of signatures required for performing withdraw.
+  max_balance:      50.0
+  status:           active
+  gateway:          wavesd   # Gateway client name.
+  settings:
+    #
+    # Wavesd gateway client settings.
+    uri:          http://user:password@127.0.0.1:19332

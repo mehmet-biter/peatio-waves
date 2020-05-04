@@ -1,0 +1,20 @@
+{
+  "result": [
+    [
+      [
+        "MU88ekFEL8hDg4GJoTB3cAJBaL9LFyquyB",
+        0.10000000
+      ],
+      [
+        "MHaHCEmSaXwPEZUdAWb6bkcfzEvSqs85C9",
+        0.00000000
+      ],
+      [
+        "MPP8WBRmpRwTH6qw7HtvSZ3tRmtaqidQhR",
+        0.00000000
+      ],
+    ]
+  ],
+  "error": null,
+  "id": "curltest"
+}

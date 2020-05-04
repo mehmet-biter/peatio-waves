@@ -1,0 +1,23 @@
+{
+  "result": {
+    "hash": "be8e7df63dc77990c21b469effc73d4a7d96a989a2eeaa26ef6f5f6ba9eab59d",
+    "confirmations": 943126,
+    "size": 640,
+    "height": 40500,
+    "version": 4,
+    "merkleroot": "79da0c0422b215340fe2bd9b98a357780cb5cd3002e33aa9aad2804ce0003195",
+    "tx": [
+      "bd89db90e3c7f5e88ce956950bc05643609926cfc3dfc0b224f849ed39b3ad7b",
+      "7a43f3b8d95c475245859753ee3bd821309a324b377d4a6e9a54f4c073c32ae1"
+    ],
+    "time": 1493164098,
+    "nonce": 2406013836,
+    "bits": "1d0212b1",
+    "difficulty": 0.48238221,
+    "chainwork": "0000000000000000000000000000000000000000000000000000506831d0f4ad",
+    "previousblockhash": "bd04dc39bc67563a9085ce0c1320c1797a1f997175efd8cfb226518c6860fda6",
+    "nextblockhash": "667c02313ab97c780b31c40e7a836aa669a56d773f9871012720d2db690f51dc"
+  },
+  "error": null,
+  "id": "curltest"
+}
