@@ -8,7 +8,6 @@ module Peatio
 
       def initialize(settings = {})
         @settings = settings
-        configure
       end
 
       def configure(settings = {})
