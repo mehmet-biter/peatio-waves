@@ -130,7 +130,7 @@ GEM
       byebug (~> 11.0)
       pry (~> 0.10)
     public_suffix (3.0.3)
-    rake (10.5.0)
+    rake (13.0.1)
     rbnacl (7.0.0)
       ffi
     rspec (3.8.0)
@@ -166,7 +166,7 @@ DEPENDENCIES
   mocha (~> 1.8)
   peatio-waves!
   pry-byebug
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
   waves_client!
   webmock (~> 3.5)
