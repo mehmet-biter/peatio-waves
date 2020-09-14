@@ -6,8 +6,8 @@ require "peatio/waves/version"
 Gem::Specification.new do |spec|
   spec.name          = "peatio-waves"
   spec.version       = Peatio::Waves::VERSION
-  spec.authors       = ["MartianAtWork"]
-  spec.email         = ["nick@thefastway.in"]
+  spec.authors       = ["Harold Whistler"]
+  spec.email         = ["harold.whistler@nutshell.exchange"]
 
   spec.summary       = %q{Gem for extending Peatio plugable system with Waves implementation.}
   spec.description   = %q{Waves Peatio gem which implements Peatio::Blockchain::Abstract & Peatio::Wallet::Abstract.}
